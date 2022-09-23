@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-secondary {
+  background-color: #a0a0a0;
+}
+
+.article-menu {
+  background-color: #a0a0a0;
+  margin: 25px;
+}
+
+.article-menu-size {
+  margin-top: 4px;
+  font-size: 1.3em;
+}
+
+.menu-title {
+  margin-top: 30px;
+  font-size: 2em;
+}
+
+.navbar-brand {
+  vertical-align: middle;
+}
+
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 25px;
+  vertical-align: middle;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.header-brand {
+  vertical-align: middle;
+}
+
+.dropdown-menu {
+  margin-top: 53px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.name1 {
+  font-size: 1.3em;
+  padding: 2px;
+}
+
+#border {
+  border-bottom: 1px solid black;
+}
+
+.btn-primary {
+  background: grey;
+  border: 2px solid #000;
+  color: #000;
+}
+
+/********** Smartphone devices only - XS **********/
+@media (min-width: 576px) {
+  .button-menu {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 576px) {
+  .article-menu {
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .navbar-brand h1 {
+    color: black;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    vertical-align: middle;
+  }
+}
